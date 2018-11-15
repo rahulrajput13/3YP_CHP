@@ -2,10 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-import Assets as AS
-import EnergySystem as ES      
-import Market as MK
-
 
 July_data = pd.read_csv('Elec14.07.17.csv', usecols=[0])
 A1 = July_data.values
